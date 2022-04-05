@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="/js/jquery-3.6.0.js"></script>
+    <script src="/js/scripts.js"></script>
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <form id="input-form">
+      <label for="age-input">Age :</label>
+      <input id="age-input" type="number" min="1" max="125" required />
+      <label for="movie-input">Movie :</label>
+      <select name="" id="movie-input">
+        <option value="Ambulance">Ambulance</option>
+        <option value="Dog">Dog</option>
+        <option value="Sonic The Hedgehog 2">Sonic The Hedgehog 2</option>
+        <option value="The Other Guys">The Other Guys</option>
+        <option value="Avengers">Avengers</option>
+        <option value="Tenet">Tenet</option>
+      </select>
+      <label for="time-input">Time :</label>
+      <select name="" id="time-input">
+        <option value="7">7 am</option>
+        <option value="9">9 am</option>
+        <option value="10">10 am</option>
+        <option value="11">11 am</option>
+        <option value="12">12 pm</option>
+        <option value="13">1 pm</option>
+        <option value="15">3 pm</option>
+        <option value="16">4 pm</option>
+        <option value="17">5 pm</option>
+        <option value="18">6 pm</option>
+        <option value="19">8 pm</option>
+        <option value="20">9 pm</option>
+        <option value="21">10 pm</option>
+      </select>
+      <button type="submit">Add Ticket</button>
+    </form>
+    <ul id="results"></ul>
+  </body>
+</html>
